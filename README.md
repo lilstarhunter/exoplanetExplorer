@@ -26,9 +26,9 @@ This dataset is a cumulative record of all observed Kepler "objects of interest"
 
 [Full Directory of Data Columns Definitions](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html)
 
+- - -
 
 ## Pipeline
-
 
 ### 1. Preprocessing the Data
 
@@ -46,27 +46,24 @@ This dataset is a cumulative record of all observed Kepler "objects of interest"
 * kNN Model from `sklearn.neighbors` library
 * Neural Networks from `tensorflow.keras.models` library
 
-
 ### 3. Hypertune Model
 * Idenitified parameters using `.get_params().keys()`
 * Use `GridSearch` to tune model parameters.
 
-
-### Reporting
-
-
-
 - - -
 
 ## Model Summary
+
 | Model Name    | Test Score         | Hypertuned Score
 | ------------- | :-------------: | :-------------: 
 | SVM - Linear  | 0.798  | 0.820
 | Logistic Regression  | 0.804  | 0.818
-| Random Forest  | 0.908  | 0.905
+| __Random Forest  | 0.908  | 0.905__
 | kNN  | 0.797  | 0.802
-| Neural Network / Deep | 0.805  | 0.817
+| Neural Network / Deep Learning | 0.805  | 0.817
 
+
+After running several models, the algorithm with the highest degree of accuracy for classifying Exoplanets is Random Forest with an accuracy score of 91%. All models tested came quite close with an average score of 80%. While I did hypertune many of these models, more parameters can be assessed in order to improve the accuracy. 
 
 
 ## Data Source
