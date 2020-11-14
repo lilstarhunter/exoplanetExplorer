@@ -54,18 +54,18 @@ This dataset is a cumulative record of all observed Kepler "objects of interest"
 
 ### Reporting
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+
 
 - - -
 
 ## Model Summary
 | Model Name    | Test Score         | Hypertuned Score
-| ------------- | ------------- | ------------- 
-| SVM - Linear  | 0.798  | 0.8195
-| Logistic Regression  | 0.8037  | 0.8182
-| Random Forest  | 0.9084  | 0.9050
-| kNN  | 0.797  | 0.8020
-| Neural Network / Deep | 0.80491  | 0.81693
+| ------------- | :-------------: | :-------------: 
+| SVM - Linear  | 0.798  | 0.820
+| Logistic Regression  | 0.804  | 0.818
+| Random Forest  | 0.908  | 0.905
+| kNN  | 0.797  | 0.802
+| Neural Network / Deep | 0.805  | 0.817
 
 
 
