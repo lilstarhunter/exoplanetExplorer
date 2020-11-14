@@ -58,7 +58,7 @@ This dataset is a cumulative record of all observed Kepler "objects of interest"
 | ------------- | :-------------: | :-------------: 
 | SVM - Linear  | 0.798  | 0.820
 | Logistic Regression  | 0.804  | 0.818
-| __Random Forest  | 0.908  | 0.905__
+| __Random Forest__  | __0.908__ | __0.905__
 | kNN  | 0.797  | 0.802
 | Neural Network / Deep Learning | 0.805  | 0.817
 
