@@ -63,7 +63,11 @@ This dataset is a cumulative record of all observed Kepler "objects of interest"
 | Neural Network / Deep Learning | 0.805  | 0.817
 
 
-After running several models, the algorithm with the highest degree of accuracy for classifying Exoplanets is Random Forest with an accuracy score of 91%. All models tested came quite close with an average score of 80%. While I did hypertune many of these models, more parameters can be assessed in order to improve the accuracy. 
+After running several models, the algorithm with the highest degree of accuracy for classifying Exoplanets is Random Forest with an accuracy score of 91%. All models tested came quite close with an average score of 80%. While I did hypertune many of these models, more parameters can be assessed in order to improve the accuracy. Secondly, the dataset includes "candidate" exoplanets which provides little to no insight since this candidate can be a false positive or a confirmed exoplanet. The model may be improved by removing all __candidate__ exoplanets and train only on confirmed confirmed exoplanets and non-exoplanets. I ran a confusion matrix to better understand the RandomForest model.
+
+![RF_Classification Report](Images/RF_Classification Report.png)
+
+Overall the accuracy of this model is quite high. It appears that this model is extremely accurate at correctly classifying __false positives__ with an F1 score of 0.99. In other words, this model is best a predicted objects of interest that are NOT exoplanets.
 
 
 ## Data Source
