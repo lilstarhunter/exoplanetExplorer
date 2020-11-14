@@ -58,9 +58,16 @@ This dataset is a cumulative record of all observed Kepler "objects of interest"
 
 - - -
 
-## Summary
+## Model Summary
+| Model Name    | Test Score         | Hypertuned Score
+| ------------- | ------------- | ------------- 
+| SVM - Linear  | 0.798  | 0.8195
+| Logistic Regression  | 0.8037  | 0.8182
+| Random Forest  | 0.9084  | 0.9050
+| kNN  | 0.797  | 0.8020
+| Neural Network / Deep | 0.80491  | 0.81693
 
-* 
+
 
 ## Data Source
 
